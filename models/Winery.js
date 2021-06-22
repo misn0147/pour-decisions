@@ -21,15 +21,18 @@ Winery.init(
         },
         website: {
             type: DataTypes.STRING,
+            allowNull: false,
             validate: {
                 isUrl: true,
             }
         },
         phone: {
             type: DataTypes.STRING,
+            allowNull: false
         },
         image: {
             type: DataTypes.STRING,
+            allowNull: false,
             validate: {
                 isUrl: true,
             }
@@ -41,6 +44,13 @@ Winery.init(
                 key: 'id'
             }
         }
+    },
+    {
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: 'winery'
     }
 )
 
