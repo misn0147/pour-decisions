@@ -2,13 +2,14 @@ const { Winery } = require('../models');
 
 const wineryData = [
   {
-      Name: "Ab Astris Winery",
-      Location: "320 Klein Road, Stonewall, Texas 78671",
-      Website: "www.abastriswinery.com",
-      Phone: "(830) 644-8369",
-      Image: "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/AbAstrisMainImage-1024x768.jpg",
-      User_id:  1
-  },
+      name: "Ab Astris Winery",
+      location: "320 Klein Road, Stonewall, Texas 78671",
+      website: "www.abastriswinery.com",
+      phone: "(830) 644-8369",
+      image: "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/AbAstrisMainImage-1024x768.jpg",
+      user_id:  1
+  }
+  /*
   {
       Name: "Becker Vineyards",
       Location: "464 Becker Farms Rd, Fredericksburg, TX 78624, USA",
@@ -24,7 +25,8 @@ const wineryData = [
       Phone: "(512) 643-7398",
       Image: "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/IMG_1937-1-1024x768.jpg",
       User_id:  1
-  },
+  }
+  ,
   {
       Name: "Bending Branch Winery",
       Location: "142 Lindner Branch Trail, Comfort TX 78013 USA",
@@ -512,9 +514,9 @@ const wineryData = [
       Phone: "(512) 847-2592",
       Image: "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-18.jpg",
       User_id:  1
-  }
+  }*/
 ];
 
-    const seedWineries = () => Winery.bulkCreate(wineryData, {individualHooks: true});
+    const seedWineries = () => Winery.bulkCreate(wineryData);
 
     module.exports = seedWineries;
