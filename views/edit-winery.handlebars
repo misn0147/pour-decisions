@@ -1,44 +1,42 @@
-<form class="edit-box">
+<form class="edit-winery-box">
   <h2>
     Edit Post
   </h2>
   <div class="field">
     <label class="label">Winery Name</label>
     <div class="control">
-      <input class="input" type="text" placeholder="Winery Name">
+      <input class="input" type="text" value="{{winery.name}}">
     </div>
   </div>
 
   <div class="field">
     <label class="label">Location</label>
     <div class="control">
-      <input class="input" type="location" placeholder="{{location}}">
+      <input class="input" type="location" value="{{winery.location}}">
     </div>
   </div>
 
   <div class="field">
     <label class="label">Website</label>
     <div class="control">
-      <input class="input" type="website" placeholder="{{website}}">
+      <input class="input" type="website" value="{{winery.website}}">
     </div>
   </div>
 
   <div class="field">
     <label class="label">Phone Number</label>
     <div class="control">
-      <input class="input" type="phone" placeholder="{{phone}}">
+      <input class="input" type="phone" value="{{winery.phone}}">
     </div>
   </div>
 
   <button class="button is-primary">Submit</button>
 </form>
 
-
-
-
-<div class="card">
+<div class="delete-card">
   <footer class="card-footer">
-    <a href="#" class="card-footer-item">Edit</a>
     <a href="#" class="card-footer-item">Delete</a>
   </footer>
 </div>
+
+
