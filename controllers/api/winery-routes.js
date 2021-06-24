@@ -31,7 +31,7 @@ router.get('/', (req, res) => {
             }
         ]
     })
-    .then(dbPostData => res.json(dbPostData))
+    .then(dbWineryData => res.json(dbWineryData))
     .catch(err => {
         console.log(err);
         res.status(500).json(err);
@@ -67,12 +67,12 @@ router.get('/:id', (req,res) => {
             }
         ]
     })
-    .then(dbPostData => {
-        if (!dbPostData) {
+    .then(dbWineryData => {
+        if (!dbWineryData) {
             res.status(404).json({ message: 'No post found with this id' });
             return;
         }
-        res.json(dbPostData);
+        res.json(dbWineryData);
     })
     .catch(err => {
         console.log(err);
@@ -90,7 +90,7 @@ router.post('/', (req, res) => {
         image: req.body.image,
         user_id: req.session.user_id
     })
-    .then(dbPostData => res.json(dbPostData))
+    .then(dbWineryData => res.json(dbWineryData))
     .catch(err => {
         console.log(err);
         res.status(500).json(err);
@@ -105,12 +105,12 @@ router.put('/:id', (req,res) => {
             }
         }
     )
-    .then(dbPostData => {
-        if (!dbPostData) {
+    .then(dbWineryData => {
+        if (!dbWineryData) {
             res.status(404).json({ message: 'No post found with this id' });
             return;
         }
-        res.json(dbPostData);
+        res.json(dbWineryData);
     })
     .catch(err => {
         console.log(err);
@@ -124,12 +124,12 @@ router.delete('/:id', (req, res) => {
             id: req.params.id
         }
     })
-    .then(dbPostData => {
-        if (!dbPostData) {
+    .then(dbWineryData => {
+        if (!dbWineryData) {
             res.status(404).json({ message: 'No post found with this id' });
             return;
         }
-        res.json(dbPostData);
+        res.json(dbWineryData);
     })
     .catch(err => {
         console.log(err);
