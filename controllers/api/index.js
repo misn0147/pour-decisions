@@ -5,7 +5,7 @@ const wineryRoutes = require('./winery-routes');
 const commentRoutes = require('./comment-routes');
 
 router.use('/users', userRoutes);
-router.use('/winery', wineryRoutes);
+router.use('/wineries', wineryRoutes);
 router.use('/comments', commentRoutes);
 
 module.exports = router;
