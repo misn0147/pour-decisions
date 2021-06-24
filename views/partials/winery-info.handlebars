@@ -1,19 +1,25 @@
-<div class="winery-card">
-  <div class="card-image">
-    <figure class="image is-4by3">
-      <img src={{image}} alt="Placeholder image">
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-left">
+<div id="app" class="row columns is-multiline is-flex-direction-row">
+  <div v-for="card in cardData" key="card.id" class="column is-4"></div>
+    <div class="card large">
+      <div class="card-image">
+        <figure class="image is-16by9">
+          <img src={{image}} alt="Image">
+        </figure>
       </div>
-      <div class="media-content">
-        <p class="title is-4">{{name}}</p>
-        <p class="subtitle is-6">{{location}}</p>
-        <p class="subtitle is-6">{{website}}</p>
-        <p class="subtitle is-6">{{phone}}</p>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+          </div>
+          <div class="media-content">
+            <p class="title is-one-quarter no-padding">{{name}}</p>
+              <a :href={{website}}> {{website}}</a> </span> </p>
+          </div>
+        </div>
+        <div class="content">
+          {{location}} <br>
+          {{phone}}
+          <div class="background-icon"><span class="icon-twitter"></span></div>
+        </div>
       </div>
-    </div>
   </div>
 </div>
