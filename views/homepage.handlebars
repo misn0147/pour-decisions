@@ -1,10 +1,11 @@
 <div class="container">
-    <div class="section">
+    <div class="section p-0">
         <div class="columns">
             <div class="column has-text-centered">
             <h1 class="title" style="color: grey;">Wineries</h1><br>
             </div>
         </div>
+        <div class="is-flex is-justify-content-space-around is-flex-wrap-wrap">
                 {{#each wineries as |winery|}}
                     
                         {{> winery-info winery }}
