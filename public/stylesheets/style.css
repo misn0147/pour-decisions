@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body, html {
     height: 100%;
     padding: 0;
@@ -9,7 +9,12 @@
     font-family: sans-serif;
     color: #333;
   }
-  
+
+  .is-4by3 {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
   a {
     text-decoration: none;
     color: #225ca3;
