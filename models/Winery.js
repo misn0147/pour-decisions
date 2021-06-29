@@ -35,7 +35,7 @@ Winery.init(
             allowNull: false,
             validate: {
                 isUrl: true,
-            }
+            },
         },
         user_id: {
             type: DataTypes.INTEGER,
