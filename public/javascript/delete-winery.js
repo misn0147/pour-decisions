@@ -5,7 +5,7 @@ const id = window.location.toString().split('/')[
     window.location.toString().split('/').length - 1
   ];
 
-  const response = await fetch(`/api/winery/${id}`, {
+  const response = await fetch(`/api/wineries/${id}`, {
     method: 'DELETE',
   });
 
@@ -16,4 +16,4 @@ const id = window.location.toString().split('/')[
   }
 }
 
-document.querySelector('.delete-winery-btn').addEventListener('submit', deleteWineryFormHandler);
+document.querySelector('.delete-winery-btn').addEventListener('click', deleteWineryFormHandler);

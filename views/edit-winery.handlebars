@@ -1,42 +1,40 @@
-<form class="edit-winery-box">
+<article>
+    <a href="/dashboard"> &larr; Back to dashboard</a>
   <h2>
-    Edit Post
+    Edit Winery
   </h2>
-  <div class="field">
-    <label class="label">Winery Name</label>
-    <div class="control">
-      <input class="input" type="text" value="{{winery.name}}">
-    </div>
-  </div>
+    <form class="edit-winery-form">
+      <div> 
+                  <div>
+                  <label class="label">Winery Name</label>
+                    <input name="winery-name" type="text" value="{{winery.name}}" />
+                  </div>
 
-  <div class="field">
-    <label class="label">Location</label>
-    <div class="control">
-      <input class="input" type="location" value="{{winery.location}}">
-    </div>
-  </div>
+                <div>
+                  <label class="label">Winery Location</label>
+                    <input name="winery-location" type="text" value="{{winery.location}}" />
+                </div>
 
-  <div class="field">
-    <label class="label">Website</label>
-    <div class="control">
-      <input class="input" type="website" value="{{winery.website}}">
-    </div>
-  </div>
+                <div>
+                  <label class="label">Winery Website</label>
+                    <input name="winery-website" type="text" value="{{winery.website}}" />
+                </div>
 
-  <div class="field">
-    <label class="label">Phone Number</label>
-    <div class="control">
-      <input class="input" type="phone" value="{{winery.phone}}">
-    </div>
-  </div>
+                <div>
+                  <label class="label">Phone Number</label>
+                    <input name="winery-phone" type="text" value="{{winery.phone}}" />
+                </div>
+                
+                  <div>
+                  <label class="label">Winery Image</label>
+                    <input name="winery-image" type="text" value="{{winery.image}}" />
+                </div>
+      </div>
 
-  <button class="button is-primary">Submit</button>
-</form>
+    <button type="submit">Submit</button>
+    <button type="button" class="delete-winery-btn">Delete Winery</button>
+  </form>
+</article>
 
-<div class="delete-card">
-  <footer class="card-footer">
-    <a href="#" class="card-footer-item">Delete</a>
-  </footer>
-</div>
 
 

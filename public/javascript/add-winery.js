@@ -10,7 +10,7 @@ const user_id = window.location.toString().split('/')[
     window.location.toString().split('/').length - 1
   ];
 
-  const response = await fetch(`/api/winery`, {
+  const response = await fetch(`/api/wineries`, {
     method: 'POST',
     body: JSON.stringify({
       name,
@@ -31,7 +31,5 @@ const user_id = window.location.toString().split('/')[
         alert(response.statusText);
     }
     }
-
-}
-
+  
 document.querySelector('.new-winery-form').addEventListener('submit', newWineryFormHandler);

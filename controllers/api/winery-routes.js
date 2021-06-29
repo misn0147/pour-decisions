@@ -86,7 +86,7 @@ router.post('/', (req, res) => {
         name: req.body.name,
         location: req.body.location,
         website: req.body.website,
-        phone: req.body.website,
+        phone: req.body.phone,
         image: req.body.image,
         user_id: req.session.user_id
     })
@@ -98,7 +98,14 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req,res) => {
-    Winery.update(req.body,
+    Winery.update(
+        {
+        name: req.body.name,
+        location: req.body.location,
+        website: req.body.website,
+        phone: req.body.phone,
+        image: req.body.image,
+        },
         {
             where: {
                 id: req.params.id
@@ -107,7 +114,7 @@ router.put('/:id', (req,res) => {
     )
     .then(dbWineryData => {
         if (!dbWineryData) {
-            res.status(404).json({ message: 'No post found with this id' });
+            res.status(404).json({ message: 'No winery found with this id' });
             return;
         }
         res.json(dbWineryData);
