@@ -81,7 +81,6 @@ router.get('/:id', (req,res) => {
 });
 
 router.post('/', (req, res) => {
-    console.log('========84 worked======')
     Winery.create({
         name: req.body.name,
         location: req.body.location,
@@ -96,6 +95,8 @@ router.post('/', (req, res) => {
         res.status(500).json(err);
     });
 });
+
+
 
 router.put('/:id', (req,res) => {
     Winery.update(
