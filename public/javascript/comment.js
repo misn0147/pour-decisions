@@ -6,6 +6,17 @@ async function commentFormHandler(event) {
       window.location.toString().split('/').length - 1
     ];
   
+    var emotionsArray = ['angry','disappointed','meh', 'happy', 'inLove'];
+    jQ("#element").emotionsRating({
+      emotionSize: 30,
+      bgEmotion: 'happy',
+      emotions: emotionsArray,
+      color: '#FF0066', //the color must be expressed with a css code
+          initialRating: 4, //initialize the rating number
+      disabled: true, //set if the rating can be changed or not, default is false
+      onUpdate: function(value) {} //set value changed event handler
+    });
+    
     if (comment_text) {
       const response = await fetch('/api/comments', {
         method: 'POST',
