@@ -4,7 +4,7 @@ const { Winery, User, Comment} = require('../models');
 const withAuth = require('../utils/auth');
 
 // get all wineries for dashboard
-router.get('/', withAuth, (req, res) => {
+router.get('/', (req, res) => {
     Winery.findAll({
         where: {
             user_id: req.session.user_id
@@ -34,8 +34,8 @@ router.get('/', withAuth, (req, res) => {
         ]
         })
         .then(dbWineryData => {
-            const posts = dbWineryData.map(post => post.get({ plain: true }));
-            res.render('dashboard', { posts, loggedIn: true });
+            const wineries = dbWineryData.map(winery => winery.get({ plain: true }));
+            res.render('dashboard', { wineries, loggedIn: true });
         })
         .catch(err => {
             console.log(err);
@@ -43,7 +43,7 @@ router.get('/', withAuth, (req, res) => {
         });
 });
 
-router.get('/edit/:id', withAuth, (req, res) => {
+router.get('/edit/:id', (req, res) => {
     Winery.findByPk(req.params.id, {
         attributes: [
             'id', 
