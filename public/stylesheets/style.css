@@ -1,5 +1,6 @@
 * {
 <<<<<<< HEAD
+<<<<<<< HEAD
     box-sizing: border-box;
   }
 
@@ -185,6 +186,8 @@
 
   
 =======
+=======
+>>>>>>> 1a7b6db54483cca9aecad05f21e6cf746c0e9f75
   box-sizing: border-box;
 }
 
@@ -315,6 +318,13 @@ main {
   background-color: #ff643d;
 }
 
+<<<<<<< HEAD
+=======
+.title a {
+  color: black;
+}
+
+>>>>>>> 1a7b6db54483cca9aecad05f21e6cf746c0e9f75
 .post {
   margin-bottom: 2%;
   line-height: 150%;
@@ -374,4 +384,7 @@ footer {
   padding: 1%;
   font-size: 110%;
 }
+<<<<<<< HEAD
 >>>>>>> 3376f0c0978c30a68152fdebac3bc19dd1428adc
+=======
+>>>>>>> 1a7b6db54483cca9aecad05f21e6cf746c0e9f75

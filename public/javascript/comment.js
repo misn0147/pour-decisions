@@ -22,8 +22,12 @@ async function commentFormHandler(event) {
         method: 'POST',
         body: JSON.stringify({
           comment_text,
+<<<<<<< HEAD
           winery_id,
           user_id
+=======
+          winery_id
+>>>>>>> 1a7b6db54483cca9aecad05f21e6cf746c0e9f75
         }),
         headers: {
           'Content-Type': 'application/json'

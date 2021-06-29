@@ -4,7 +4,7 @@ const wineryData = [
   {
     name: "Ab Astris Winery",
     location: "320 Klein Road, Stonewall, Texas 78671",
-    website: "www.abastriswinery.com",
+    website: "https://www.abastriswinery.com",
     phone: "(830) 644-8369",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/AbAstrisMainImage-1024x768.jpg",
@@ -22,7 +22,7 @@ const wineryData = [
   {
     name: "Bell Springs Winery",
     location: "3700 Bell Springs Rd, Dripping Springs, TX 78620, USA",
-    website: "www.bellspringswinery.com",
+    website: "https://www.bellspringswinery.com",
     phone: "(512) 643-7398",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/IMG_1937-1-1024x768.jpg",
@@ -31,7 +31,7 @@ const wineryData = [
   {
     name: "Bending Branch Winery",
     location: "142 Lindner Branch Trail, Comfort TX 78013 USA",
-    website: "www.bendingbranchwinery.com",
+    website: "https://www.bendingbranchwinery.com",
     phone: "(830) 995-2948",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/IMG_8330-1024x683.jpg",
@@ -49,7 +49,7 @@ const wineryData = [
   {
     name: "Bingham Family Vineyards",
     location: "3915 B, US-290 E, Fredericksburg, TX 78624",
-    website: "BinghamFamilyVineyards.com",
+    website: "https://BinghamFamilyVineyards.com",
     phone: "(830) 304-6616",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/19.09.01_Bingham_047-1400x729b-1024x533.jpg",
@@ -58,7 +58,7 @@ const wineryData = [
   {
     name: "Blue Lotus Winery-Hye",
     location: "8500 US-290, Hye, TX 78635, USA",
-    website: "www.bluelotuswinery.com",
+    website: "https://www.bluelotuswinery.com",
     phone: "(830) 379-9463",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Hye-Front-sign-with-mead.jpg",
@@ -67,7 +67,7 @@ const wineryData = [
   {
     name: "Chisholm Trail Winery",
     location: "2367 Usener Rd, Fredericksburg, TX 78624, USA",
-    website: "www.chisholmtrailwinery.com",
+    website: "https://www.chisholmtrailwinery.com",
     phone: "",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-image-5.jpg",
@@ -76,7 +76,7 @@ const wineryData = [
   {
     name: "Cicada Cellars",
     location: "14746 U.S. 290 East Stonewall, TX 78671",
-    website: "www.cicadacellars.com",
+    website: "https://www.cicadacellars.com",
     phone: "(830) 456-9324",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/CicadaMain-765x1024.jpg",
@@ -85,7 +85,7 @@ const wineryData = [
   {
     name: "Driftwood Estate Winery",
     location: "4001 Elder Hill Rd, Driftwood, TX 78619, USA",
-    website: "www.DriftwoodWine.com",
+    website: "https://www.DriftwoodWine.com",
     phone: "(512) 858-9667",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-3.png",
@@ -94,7 +94,7 @@ const wineryData = [
   {
     name: "Dry Comal Creek Winery and Vineyards",
     location: "1741 Herbelin Rd, New Braunfels, TX 78132, USA",
-    website: "www.drycomalcreekvineyards.com",
+    website: "https://www.drycomalcreekvineyards.com",
     phone: "(830) 500-3048",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/IMG_1707-1-1024x768.jpg",
@@ -103,7 +103,7 @@ const wineryData = [
   {
     name: "Duchman Family Winery",
     location: "13308 Farm to Market Road W 150, Driftwood, TX 78619, USA",
-    website: "www.duchmanwinery.com",
+    website: "https://www.duchmanwinery.com",
     phone: "(512) 858-1470",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-6.jpg",
@@ -112,7 +112,7 @@ const wineryData = [
   {
     name: "Fall Creek Vineyards at Tow",
     location: "1820 Co Rd 222, Tow, TX 78672, USA",
-    website: "www.fcv.com",
+    website: "https://www.fcv.com",
     phone: "(325) 379-5361",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-1.png",
@@ -121,7 +121,7 @@ const wineryData = [
   {
     name: "Farmhouse Vineyards",
     location: "402 E Main St, Johnson City, TX 78636, USA",
-    website: "www.farmhousevineyard.com",
+    website: "https://www.farmhousevineyard.com",
     phone: "(830) 282-4249",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/FHV-Cover-Photo-High-Res.png",
@@ -130,7 +130,7 @@ const wineryData = [
   {
     name: "Fiesta Vineyard & Winery at Lometa",
     location: "18727 FM 580, Lometa, TX 76853, USA",
-    website: "www.fiestawinery.com",
+    website: "https://www.fiestawinery.com",
     phone: "(325) 628-3433",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Photo-Jun-13-11-52-17-AM-1024x768.jpg",
@@ -139,7 +139,7 @@ const wineryData = [
   {
     name: "Fiesta Winery Fredericksburg 290",
     location: "6260 US Highway 290 E, Fredericksburg, TX 78624",
-    website: "www.fiestawinery.com",
+    website: "https://www.fiestawinery.com",
     phone: "(830) 997-4466",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/290TastingRoom-1024x680.jpg",
@@ -148,7 +148,7 @@ const wineryData = [
   {
     name: "Fiesta Winery Marble Falls",
     location: "309 Main St, Marble Falls, TX 78654, USA",
-    website: "www.fiestawinery.com/marble-falls",
+    website: "https://www.fiestawinery.com/marble-falls",
     phone: "(830) 637-7702",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Photo-Jun-14-2-57-34-PM-1024x768.jpg",
@@ -157,7 +157,7 @@ const wineryData = [
   {
     name: "Flat Creek Estate",
     location: "24912 Singleton Bend East, Marble Falls, TX 78654, USA",
-    website: "www.flatcreekestate.com",
+    website: "https://www.flatcreekestate.com",
     phone: "(512) 267-6310",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/THCW-Header-Photo-2019-1024x683.jpg",
@@ -166,7 +166,7 @@ const wineryData = [
   {
     name: "Fredricksburg Winery",
     location: "247 West Main Street, Fredericksburg, TX 78624, USA",
-    website: "www.fbgwinery.com",
+    website: "http://www.fbgwinery.com",
     phone: "(830) 990-8747",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-9.jpg",
@@ -175,7 +175,7 @@ const wineryData = [
   {
     name: "Grape Creek Vineyards",
     location: "10587 E US-290, Fredericksburg, TX 78624, USA",
-    website: "www.grapecreek.com",
+    website: "https://www.grapecreek.com",
     phone: "(830) 644-2710",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Grape-Creek-Vineyards-1024x898.jpg",
@@ -184,7 +184,7 @@ const wineryData = [
   {
     name: "Grape Creek Vineyards on Main",
     location: "223 E Main St, Fredericksburg, TX 78624, USA",
-    website: "www.grapecreek.com/taste-on-main-st-fredericksburg",
+    website: "https://www.grapecreek.com/taste-on-main-st-fredericksburg",
     phone: "(830) 992-3373",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/GCV-Main-St-July-2020-2-1024x683.png",
@@ -193,7 +193,7 @@ const wineryData = [
   {
     name: "Hawks Shadow",
     location: "7500 McGregor Lane, Dripping Springs, TX 78620, USA",
-    website: "www.hawksshadow.com",
+    website: "https://www.hawksshadow.com",
     phone: "(866) 551-9463",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-11.jpg",
@@ -202,7 +202,7 @@ const wineryData = [
   {
     name: "Heath Sparkling Wines",
     location: "10591 E US-290, Fredericksburg, TX 78624, USA",
-    website: "Heathsparkling.com",
+    website: "https://Heathsparkling.com",
     phone: "(830) 304-1011",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Heath-Sparkling-Wines-1024x655.jpg",
@@ -211,7 +211,7 @@ const wineryData = [
   {
     name: "Hilmy Cellars",
     location: "12346 E. US Hwy 290, Fredericksburg, TX 78624",
-    website: "HILMYWINE.COM",
+    website: "https://HILMYWINE.COM",
     phone: "(830) 644-2482",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/Hilmy-Cover-Image-RZ-Lisa-Sheppard-1024x535.png",
@@ -220,7 +220,7 @@ const wineryData = [
   {
     name: "Hye Meadow Winery",
     location: "10257 West, US-290, Hye, TX 78635, USA",
-    website: "www.hyemeadow.com",
+    website: "https://www.hyemeadow.com",
     phone: "(830) 308-8551",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/hye-meadow-pic-1024x498.jpg",
@@ -229,7 +229,7 @@ const wineryData = [
   {
     name: "Inwood Estates Winery & Bistro",
     location: "10303 U.S. 290, Fredericksburg, TX, USA",
-    website: "www.inwoodwines.com",
+    website: "http://www.inwoodwines.com",
     phone: "(830) 997-2304",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-image-.jpg",
@@ -247,7 +247,7 @@ const wineryData = [
   {
     name: "Kerrville Hills Winery",
     location: "3600 Fredericksburg Rd, Kerrville, TX 78028, USA",
-    website: "www.kerrvillehillswinery.com",
+    website: "https://www.kerrvillehillswinery.com",
     phone: "(830) 895-4233",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/tasting-room-fireplace-cropped-Carol-Milberger-1.jpg",
@@ -265,7 +265,7 @@ const wineryData = [
   {
     name: "Kuhlman Cellars",
     location: "18421 U.S. 290, Stonewall, TX 78671, USA",
-    website: "www.kuhlmancellars.com",
+    website: "https://www.kuhlmancellars.com",
     phone: "(512) 920-2675",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Kuhlman-Cellars-Nov-2015-Web-12-1024x576.jpg",
@@ -283,7 +283,7 @@ const wineryData = [
   {
     name: "Limestone Terrace Vineyard",
     location: "101 Rocky Meadows Lane, Wimberley Tx 78676",
-    website: "www.limestoneterrace.com",
+    website: "https://www.limestoneterrace.com",
     phone: "(512) 575-2594",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2020/11/118397660_10157713071380028_4248618848357829992_n-Mody-Stovall.jpg",
@@ -292,7 +292,7 @@ const wineryData = [
   {
     name: "Longhorn Cellars",
     location: "315 Farm to Market 1376, Fredericksburg, TX 78624, USA",
-    website: "www.longhorncellars.com",
+    website: "https://www.longhorncellars.com",
     phone: "(830) 990-2990",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/THCW1651-1024x683.jpg",
@@ -301,7 +301,7 @@ const wineryData = [
   {
     name: "Los Pinos Ranch Vineyard",
     location: "6009 U.S. 290, Fredericksburg, TX, USA",
-    website: "www.lospinosranchvineyards.com",
+    website: "https://www.lospinosranchvineyards.com",
     phone: "(830) 304-5778",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/logo-wall-from-front-1024x768.jpg",
@@ -310,7 +310,7 @@ const wineryData = [
   {
     name: "Lost Draw Cellars",
     location: "113 E Park St, Fredericksburg, TX 78624, USA",
-    website: "www.lostdrawcellars.com/",
+    website: "https://www.lostdrawcellars.com/",
     phone: "(830) 992-3251",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/lost-draw-1024x768.jpg",
@@ -319,7 +319,7 @@ const wineryData = [
   {
     name: "Messina Hof Hill Country",
     location: "9996 U.S. 290 East, Fredericksburg, TX 78624, USA",
-    website: "www.messinahof.com/hillcountry",
+    website: "https://www.messinahof.com/hillcountry",
     phone: "(830) 990-4653",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-19-1024x533.jpg",
@@ -328,7 +328,7 @@ const wineryData = [
   {
     name: "Narrow Path Winery at Albert",
     location: "6331 S Ranch Rd 1623, Stonewall, TX 78671, USA",
-    website: "www.NarrowPathWinery.com",
+    website: "https://www.NarrowPathWinery.com",
     phone: "(830) 644-2144",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/NP-vines-683x1024.jpeg",
@@ -337,7 +337,7 @@ const wineryData = [
   {
     name: "Pedernales Cellars",
     location: "2916 Upper Albert Road, Stonewall, Texas 78671, USA",
-    website: "www.pedernalescellars.com",
+    website: "https://www.pedernalescellars.com",
     phone: "(830) 644-2037",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-2-1024x533.jpg",
@@ -346,7 +346,7 @@ const wineryData = [
   {
     name: "Perissos Vineyard and Winery",
     location: "7214 Park Road 4 West, Burnet, TX 78611, USA",
-    website: "www.perissosvineyards.com",
+    website: "https://www.perissosvineyards.com",
     phone: "(512) 820-2950",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/DSC_5101-1024x683.jpg",
@@ -355,7 +355,7 @@ const wineryData = [
   {
     name: "Pillar Bluff Vineyards",
     location: "300 Co Rd 111, Lampasas, TX 76550, USA",
-    website: "www.pillarblufflampasas.com",
+    website: "https://www.pillarblufflampasas.com",
     phone: "(512) 556-4078",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-image-1-1.png",
@@ -364,7 +364,7 @@ const wineryData = [
   {
     name: "Pontotoc Vineyard Weingarten",
     location: "320 West Main Street, Fredericksburg, Texas 78624, USA",
-    website: "www.pontotocvineyard.com",
+    website: "https://www.pontotocvineyard.com",
     phone: "(512) 658-0023",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Photo.jpg",
@@ -373,7 +373,7 @@ const wineryData = [
   {
     name: "Ron Yates",
     location: "6676 Hwy 290, Johnson City, TX 78636, USA",
-    website: "www.ronyateswines.com",
+    website: "https://www.ronyateswines.com",
     phone: "(512) 585-3972",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/THCW1651-1-1024x683.jpg",
@@ -382,7 +382,7 @@ const wineryData = [
   {
     name: "Saint Tryphon Farm & Vineyards",
     location: "24 Wasp Creek Rd, Boerne, TX 78006, USA",
-    website: "www.SaintTryphon.com",
+    website: "https://www.SaintTryphon.com",
     phone: "(830) 777-6704",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-12.jpg",
@@ -391,7 +391,7 @@ const wineryData = [
   {
     name: "Silver Dollar Winery Hill Country",
     location: "8264 W Hwy 290, Johnson City, TX, USA",
-    website: "www.SilverDollarWinery.com",
+    website: "http://www.SilverDollarWinery.com",
     phone: "(830) 308-7750",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/EECY36421-Richard-Bowen-1024x768.jpg",
@@ -400,7 +400,7 @@ const wineryData = [
   {
     name: "Singing Water Vineyards",
     location: "316 Mill Dam Rd, Comfort, TX 78013, USA",
-    website: "www.singingwater.com",
+    website: "https://singingwater.com",
     phone: "(830) 457-9006",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/THCW-Singing-Water-1024x506.jpg",
@@ -409,7 +409,7 @@ const wineryData = [
   {
     name: "Sister Creek Vineyards",
     location: "1142 Sisterdale Rd, Boerne, TX 78006, USA",
-    website: "sistercreekvineyards.com",
+    website: "https://sistercreekvineyards.com",
     phone: "(830) 324-6704",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-image-1-2.png",
@@ -418,7 +418,7 @@ const wineryData = [
   {
     name: "Slate Mill Wine Collective",
     location: "4029 Brook Hollow Dr, Schertz, TX 78154, USA",
-    website: "slatemillwinecollective.com",
+    website: "https://slatemillwinecollective.com",
     phone: "(830) 391-8510",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/SMWC-FeaturedImage.jpg",
@@ -427,7 +427,7 @@ const wineryData = [
   {
     name: "Solaro Estate Winery",
     location: "13111 Silver Creek Rd, Dripping Springs, TX 78620, USA",
-    website: "solaroestate.com",
+    website: "https://solaroestate.com",
     phone: "(832) 660-8642",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/DJI_0035-1024x576.jpg",
@@ -436,7 +436,7 @@ const wineryData = [
   {
     name: "Spicewood Vineyards",
     location: "1419 Co Rd 409, Spicewood, TX 78669, USA",
-    website: "www.spicewoodvineyards.com",
+    website: "https://www.spicewoodvineyards.com",
     phone: "(830) 693-5328",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-13.jpg",
@@ -454,7 +454,7 @@ const wineryData = [
   {
     name: "Stoneledge Winery & Vineyard",
     location: "518 County Road 1403 Lometa, TX 76853",
-    website: "stoneledge.wine",
+    website: "http://stoneledge.wine",
     phone: "(512) 937-4252",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/tastingroom-1-1024x768.jpeg",
@@ -472,7 +472,7 @@ const wineryData = [
   {
     name: "Texas Heritage Vineyard",
     location: "3245 US Hwy 290 E Fredericksburg, TX 78624",
-    website: "Texasheritagevineyard.com",
+    website: "https://Texasheritagevineyard.com",
     phone: "(830) 992-3323",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/TexasHeritageNewPhoto-1024x768.jpg",
@@ -481,7 +481,7 @@ const wineryData = [
   {
     name: "Texas Hills Vineyard",
     location: "878 Ranch Road 2766, Johnson City, TX 78636, USA",
-    website: "www.texashillsvineyard.com",
+    website: "https://www.texashillsvineyard.com",
     phone: "(830) 868-2321",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-14-1024x1005.jpg",
@@ -490,7 +490,7 @@ const wineryData = [
   {
     name: "Texas Wine Collective",
     location: "10354 E Us Hwy 290, Fredericksburg, Tx 78624",
-    website: "www.texaswinecollective.com",
+    website: "https://www.texaswinecollective.com",
     phone: "(830) 997-7470",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/4.0-Cellars-Svetlana-Photography-low-res-27-1024x766.jpg",
@@ -508,7 +508,7 @@ const wineryData = [
   {
     name: "Turtle Creek Olives and Vines",
     location: "211 Earl Garrett Street, Kerrville, TX 78028, USA",
-    website: "www.turtlecreekolivesandvines.com",
+    website: "https://www.turtlecreekolivesandvines.com",
     phone: "(830) 896-0010",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/TurtleCreekFeatured-1024x662.jpg",
@@ -517,7 +517,7 @@ const wineryData = [
   {
     name: "Wedding Oak Winery at San Saba",
     location: "316 E Wallace St, San Saba, TX 76877, USA",
-    website: "www.WeddingOakWinery.com",
+    website: "https://www.WeddingOakWinery.com",
     phone: "(325) 372-4050",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Nat-Geo-Wedding-Oak-Photo-1024x683.jpg",
@@ -535,7 +535,7 @@ const wineryData = [
   {
     name: "Wedding Oak Winery Fredericksburg",
     location: "6009 U.S. 290, Fredericksburg, TX, USA",
-    website: "www.WeddingOakWinery.com",
+    website: "https://www.WeddingOakWinery.com",
     phone: "(830) 304-9333",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/fredericksburg-entrance-1024x768.jpg",
@@ -553,7 +553,7 @@ const wineryData = [
   {
     name: "Wildseed Vineyards",
     location: "100 Legacy Dr, Fredericksburg, TX 78624",
-    website: "wine.wildseedfarms.com",
+    website: "https://wine.wildseedfarms.com",
     phone: "(830) 990-6684",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/HGhlyhH0-1-Dabs-Hollimon-1024x768.jpeg",
@@ -562,7 +562,7 @@ const wineryData = [
   {
     name: "William Chris Vineyards",
     location: "10352 U.S. Highway 290 Hye, Texas 78635",
-    website: "williamchriswines.com",
+    website: "http://williamchriswines.com",
     phone: "(830) 998-7654",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/WCV-New-Tasting-Room-036-JPG-2500PX-Web-1024x512.jpg",
@@ -571,7 +571,7 @@ const wineryData = [
   {
     name: "Wimberly Valley Winery",
     location: "2825 Lone Man Mountain Rd, Driftwood, TX 78619, USA",
-    website: "www.wimberleyvalleywine.com",
+    website: "https://www.wimberleyvalleywine.com",
     phone: "(512) 847-2592",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-18.jpg",
