@@ -27,6 +27,23 @@ a:hover {
   color: #3486eb;
 }
 
+.comment-form {
+  margin-top: 30px;
+}
+
+.control {
+  align-items: center;
+}
+
+textarea {
+  display: flex;
+  align-self: baseline;
+}
+
+.comment_submit {
+  margin-top: 10px;
+}
+
 button {
   background-color: #225ca3;
   border: 0;
@@ -165,6 +182,7 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  margin-top: 20px;
 }
 
 .comment:nth-child(odd) {
