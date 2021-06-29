@@ -16,20 +16,20 @@
     <div class="wrapper">
       <header>
         
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
+        <nav class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand navbar-start">
             <a class="navbar-item" href="/">
-            <img src="https://i.imgur.com/fjRcgmu.png" width="112" height="28">
+            <img src="https://i.ibb.co/K5Tvz6f/logo-2.png" alt="Pour Decisions Logo" width="112" height="28">
             </a>
           </div>
           {{#if loggedIn}}
             <a href="/dashboard">My Wineries</a>
             <button id="logout" class="btn-no-style">logout</button>
           {{else}}
-                      <div class="navbar-end">
+          <div class="navbar-right">
             <div class="navbar-item">
               <div class="buttons">
-                <a href="/login" class="button is-primary">
+                <a href="/login" class="button is-danger">
                 <strong> Log in or Create an Account</strong>
                 </a>
               </div>
@@ -42,7 +42,7 @@
         {{{body}}}
       </main>
       <footer>
-        Thanks for visiting!
+        Just Sip Back and Relax! Let us do the wining.
       </footer>
     </div>
 
