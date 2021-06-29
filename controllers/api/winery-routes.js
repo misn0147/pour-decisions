@@ -81,7 +81,7 @@ router.get('/:id', (req,res) => {
 });
 
 router.post('/', (req, res) => {
-    
+    console.log('========84 worked======')
     Winery.create({
         name: req.body.name,
         location: req.body.location,
@@ -90,7 +90,7 @@ router.post('/', (req, res) => {
         image: req.body.image,
         user_id: req.session.user_id
     })
-    .then(dbWineryData => res.json(dbWineryData))
+    .then(dbWineryData => {console.log('====93====='); res.json(dbWineryData)} )
     .catch(err => {
         console.log(err);
         res.status(500).json(err);

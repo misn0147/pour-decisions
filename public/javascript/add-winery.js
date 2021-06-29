@@ -1,4 +1,6 @@
+console.log('add winery.js')
 async function newWineryFormHandler(event) {
+  console.log('=======submitted=======')
     event.preventDefault();
 
 const name = document.querySelector('input[name="winery-name"]').value;
