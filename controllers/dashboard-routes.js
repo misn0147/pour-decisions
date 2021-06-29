@@ -34,8 +34,8 @@ router.get('/', (req, res) => {
         ]
         })
         .then(dbWineryData => {
-            const posts = dbWineryData.map(post => post.get({ plain: true }));
-            res.render('dashboard', { posts, loggedIn: true });
+            const wineries = dbWineryData.map(winery => winery.get({ plain: true }));
+            res.render('dashboard', { wineries, loggedIn: true });
         })
         .catch(err => {
             console.log(err);
