@@ -156,8 +156,8 @@ const wineryData = [
     name: "Fiesta Winery Fredericksburg 290",
     location: "6260 US Highway 290 E, Fredericksburg, TX 78624",
     website: "https://www.fiestawinery.com",
-    facebook: "http://www.facebook.com/fiestawinery",
     phone: "(830) 997-4466",
+    facebook: "http://www.facebook.com/fiestawinery",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/290TastingRoom-1024x680.jpg",
     user_id: 1,
@@ -180,16 +180,6 @@ const wineryData = [
     facebook: "https://www.facebook.com/FlatCreekEstate",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/THCW-Header-Photo-2019-1024x683.jpg",
-    user_id: 1,
-  },
-  {
-    name: "Fredricksburg Winery",
-    location: "247 West Main Street, Fredericksburg, TX 78624, USA",
-    website: "http://www.fbgwinery.com",
-    phone: "(830) 990-8747",
-    facebook: "",
-    image:
-      "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-9.jpg",
     user_id: 1,
   },
   {
@@ -613,7 +603,7 @@ const wineryData = [
     location: "100 Legacy Dr, Fredericksburg, TX 78624",
     website: "https://wine.wildseedfarms.com",
     phone: "(830) 990-6684",
-    facebook: "https://www.facebook.com/wildseedfarms"
+    facebook: "https://www.facebook.com/wildseedfarms",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/HGhlyhH0-1-Dabs-Hollimon-1024x768.jpeg",
     user_id: 1,
