@@ -1,33 +1,33 @@
 <div
-  class="card column p-2 mr-2 mt-5 is-inline-flex is-one-quarter is-flex-wrap-wrap"
->
-  <div class="card-image">
-    <a href={{website}} target="_blank">
-      <img
-        src={{image}}
-        style="max-width: 90%, justify-content: center"
-        alt="Image"
-      /></a>
-  </div>
-  <div class="card-content formatbox">
-    <div class="media">
-      <div class="media-content">
-        <p class="title has-text-centered is-one-quarter no-padding"><a
-            style="word-wrap: normal"
-            target="_blank"
-            href={{website}}
-          >{{name}}</a></p>
-        <a style="word-wrap: normal" target="_blank" href={{website}}>
-          {{format_url website}}</a>
-        <div class="content is-center">
-          {{phone}}
-          <br />
-          {{location}}
-          <div class="background-icon">
-            <span class="icon-twitter"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	class="card column p-2 mr-2 mt-5 is-inline-flex is-one-quarter is-flex-wrap-wrap"
+	>
+	<div class="card-image">
+		<a href="/wineries/{{id}}">
+		<img
+			src={{image}}
+			style="max-width: 90%, justify-content: center"
+			alt="Image"
+		/></a>
+	</div>
+	<div class="card-content formatbox">
+		<div class="media">
+		<div class="media-content">
+			<p class="title has-text-centered is-one-quarter no-padding"><a
+				style="word-wrap: normal"
+				target="_blank"
+				href="/wineries/{{id}}"
+			>{{name}}</a></p>
+			<a style="word-wrap: normal" target="_blank" href={{website}}>
+			{{format_url website}}</a>
+			<div class="content is-center">
+			{{phone}}
+			<br />
+			{{location}}
+			<div class="background-icon">
+				<span class="icon-twitter"></span>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
 </div>
