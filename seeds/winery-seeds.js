@@ -8,6 +8,7 @@ const wineryData = [
     phone: "(830) 644-8369",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/AbAstrisMainImage-1024x768.jpg",
+    facebook: "https://www.facebook.com/abastriswinery/",
     user_id: 1,
   },
   {
@@ -17,6 +18,7 @@ const wineryData = [
     phone: "(830) 644-2681",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image.png",
+    facebook: '',
     user_id: 1,
   },
   {

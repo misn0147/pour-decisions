@@ -14,6 +14,7 @@ router.get('/', (req, res) => {
             'website',
             'phone',
             'image',
+            'facebook',
             'user_id'
         ],
         include: [
@@ -58,6 +59,7 @@ router.get('/wineries/:id', (req, res) => {
             'website',
             'phone',
             'image',
+            'facebook',
             'user_id'
         ],
         include: [
