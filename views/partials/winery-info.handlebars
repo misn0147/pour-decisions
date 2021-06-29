@@ -1,26 +1,30 @@
-
-
-<div class="card column p-2 mr-2 mt-5 is-inline-flex is-one-quarter is-flex-wrap-wrap">
-													<div class="card-image">
-															<img src={{image}} style="max-width: 90%, justify-content: center" alt="Image">
-														</div>
-														<div class="card-content">
-															<div class="media">
-																<div class="media-content">
-																	<p class="title is-center is-one-quarter no-padding">{{name}}</p>
-																	<a class="is-center" href={{website}}> {{website}}</a>
-																</span>
-															</p>
-														</div>
-													</div>
-													<div class="content">
-                {{phone}}
-														<br>
-                {{location}}
-                
-															<div class="background-icon">
-																<span class="icon-twitter"></span>
-															</div>
-														</div>
-													</div>
-												</div>
+<div
+  class="card column p-2 mr-2 mt-5 is-inline-flex is-one-quarter is-flex-wrap-wrap"
+>
+  <div class="card-image">
+    <img
+      src={{image}}
+      style="max-width: 90%, justify-content: center"
+      alt="Image"
+    />
+  </div>
+  <div class="card-content formatbox">
+    <div class="media">
+      <div class="media-content">
+        <p
+          class="title has-text-centered is-one-quarter no-padding"
+        >{{name}}</p>
+        <a style="word-wrap: normal" target="_blank" href={{website}}>
+          {{format_url website}}</a>
+        <div class="content is-center">
+          {{phone}}
+          <br />
+          {{location}}
+          <div class="background-icon">
+            <span class="icon-twitter"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
