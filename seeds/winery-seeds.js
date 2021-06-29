@@ -166,7 +166,7 @@ const wineryData = [
   {
     name: "Fredricksburg Winery",
     location: "247 West Main Street, Fredericksburg, TX 78624, USA",
-    website: "https://www.fbgwinery.com",
+    website: "http://www.fbgwinery.com",
     phone: "(830) 990-8747",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image-9.jpg",
@@ -229,7 +229,7 @@ const wineryData = [
   {
     name: "Inwood Estates Winery & Bistro",
     location: "10303 U.S. 290, Fredericksburg, TX, USA",
-    website: "https://www.inwoodwines.com",
+    website: "http://www.inwoodwines.com",
     phone: "(830) 997-2304",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-image-.jpg",
@@ -391,7 +391,7 @@ const wineryData = [
   {
     name: "Silver Dollar Winery Hill Country",
     location: "8264 W Hwy 290, Johnson City, TX, USA",
-    website: "https://www.SilverDollarWinery.com",
+    website: "http://www.SilverDollarWinery.com",
     phone: "(830) 308-7750",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/EECY36421-Richard-Bowen-1024x768.jpg",
@@ -400,7 +400,7 @@ const wineryData = [
   {
     name: "Singing Water Vineyards",
     location: "316 Mill Dam Rd, Comfort, TX 78013, USA",
-    website: "https://www.singingwater.com",
+    website: "https://singingwater.com",
     phone: "(830) 457-9006",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/THCW-Singing-Water-1024x506.jpg",
@@ -454,7 +454,7 @@ const wineryData = [
   {
     name: "Stoneledge Winery & Vineyard",
     location: "518 County Road 1403 Lometa, TX 76853",
-    website: "https://stoneledge.wine",
+    website: "http://stoneledge.wine",
     phone: "(512) 937-4252",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/tastingroom-1-1024x768.jpeg",
@@ -562,7 +562,7 @@ const wineryData = [
   {
     name: "William Chris Vineyards",
     location: "10352 U.S. Highway 290 Hye, Texas 78635",
-    website: "https://williamchriswines.com",
+    website: "http://williamchriswines.com",
     phone: "(830) 998-7654",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/WCV-New-Tasting-Room-036-JPG-2500PX-Web-1024x512.jpg",

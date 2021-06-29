@@ -19,14 +19,17 @@
   "homepage": "https://github.com/misn0147/pour-decisions#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "bulma": "^0.9.3",
     "connect-session-sequelize": "^7.1.1",
     "dotenv": "^10.0.0",
+    "emotion-ratings": "^2.0.2",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
     "express-session": "^1.17.2",
     "jquery-bar-rating": "^1.2.2",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.3"
   }
 }
