@@ -129,6 +129,10 @@ main {
   background-color: #ff643d;
 }
 
+.title a {
+  color: black;
+}
+
 .post {
   margin-bottom: 2%;
   line-height: 150%;
