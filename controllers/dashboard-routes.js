@@ -16,6 +16,7 @@ router.get('/', (req, res) => {
             'website',
             'phone',
             'image',
+            'facebook',
             'user_id'
         ],
         include: [
@@ -52,6 +53,7 @@ router.get('/edit/:id', (req, res) => {
             'website',
             'phone',
             'image',
+            'facebook',
             'user_id'
         ],
         include: [

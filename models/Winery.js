@@ -37,6 +37,13 @@ Winery.init(
                 isUrl: true,
             },
         },
+        facebook: {
+            type: DataTypes.STRING,
+            allowNull: true,
+            validate: {
+                isUrl: true,
+            },
+        },
         user_id: {
             type: DataTypes.INTEGER,
             references: {
