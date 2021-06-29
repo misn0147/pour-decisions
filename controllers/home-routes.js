@@ -46,7 +46,7 @@ router.get('/', (req, res) => {
     });
 
     // get single Winery
-router.get('/post/:id', (req, res) => {
+router.get('/wineries/:id', (req, res) => {
     Winery.findOne({
         where: {
             id: req.params.id

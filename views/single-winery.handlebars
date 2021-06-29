@@ -1,10 +1,15 @@
+<a href="/"> &larr; Back to wineries</a>
+<br>
+
 {{> winery-info winery }}
-{{> comments}}
+{{> comments winery.comments}}
 <section>
-    <div class="control">
-        <textarea class="textarea" value="{{comment-body}}" placeholder="Tells us about your experience!"></textarea>
-        <button class="button is-primary">Submit</button>
-    </div>
+    <form class="comment-form">
+        <div class="control">
+            <textarea name="comment-body" placeholder="Tells us about your experience!"></textarea>
+            <button class="submit">Submit</button>
+        </div>
+    </form>
 </section>
 
 
