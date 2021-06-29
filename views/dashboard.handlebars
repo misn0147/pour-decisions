@@ -1,0 +1,45 @@
+<section>
+    <h2>Create New winery</h2>
+
+    <form class="new-winery-form">
+        <div>
+            <label for="winery-name">Winery Name</label>
+            <input type="text" id="winery-name" name="winery-name" />
+        </div>
+        <div>
+            <label for="winery-location">Winery Address</label>
+            <input id="winery-location" name="winery-location" />
+        </div>
+        <div>
+            <label for="winery-website">Winery Website</label>
+            <input id="winery-website" name="winery-website" />
+        </div>
+        <div>
+            <label for="winery-phone">Winery Phone</label>
+            <input id="winery-phone" name="winery-phone" />
+        </div>
+        <div>
+            <label for="winery-image">Winery Image (or use default winery image provided)</label>
+            <input id="winery-image" value="https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/IMG_8330-1024x683.jpg" name="winery-image" />
+        </div>
+
+        <button type="submit" class="btn">Create</button>
+    </form>
+</section>
+
+{{#if wineries.length}}
+<section>
+    <h2>Your Wineries</h2>
+    <ul>
+        {{#each wineries as |winery|}}
+        <li>
+        {{> winery-info winery}}
+        <br>
+        <br>
+        <a href="/dashboard/edit/{{winery.id}}" class="edit-link">Edit winery</a>
+        </li>
+        {{/each}}
+    </ul>
+</section>
+{{/if}}
+<script src="/javascript/add-winery.js"></script>

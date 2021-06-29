@@ -81,16 +81,16 @@ router.get('/:id', (req,res) => {
 });
 
 router.post('/', (req, res) => {
-    
+    console.log('========84 worked======')
     Winery.create({
         name: req.body.name,
         location: req.body.location,
         website: req.body.website,
-        phone: req.body.website,
+        phone: req.body.phone,
         image: req.body.image,
         user_id: req.session.user_id
     })
-    .then(dbWineryData => res.json(dbWineryData))
+    .then(dbWineryData => {console.log('====93====='); res.json(dbWineryData)} )
     .catch(err => {
         console.log(err);
         res.status(500).json(err);
@@ -98,7 +98,14 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req,res) => {
-    Winery.update(req.body,
+    Winery.update(
+        {
+        name: req.body.name,
+        location: req.body.location,
+        website: req.body.website,
+        phone: req.body.phone,
+        image: req.body.image,
+        },
         {
             where: {
                 id: req.params.id
@@ -107,7 +114,7 @@ router.put('/:id', (req,res) => {
     )
     .then(dbWineryData => {
         if (!dbWineryData) {
-            res.status(404).json({ message: 'No post found with this id' });
+            res.status(404).json({ message: 'No winery found with this id' });
             return;
         }
         res.json(dbWineryData);
@@ -126,7 +133,7 @@ router.delete('/:id', (req, res) => {
     })
     .then(dbWineryData => {
         if (!dbWineryData) {
-            res.status(404).json({ message: 'No post found with this id' });
+            res.status(404).json({ message: 'No winery found with this id' });
             return;
         }
         res.json(dbWineryData);

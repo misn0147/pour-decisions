@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="section p-0">
+        <div class="columns">
+            <div class="column has-text-centered">
+            <h1 class="title" style="color: grey;">Wineries</h1><br>
+            </div>
+        </div>
+        <div class="is-flex is-justify-content-space-around is-flex-wrap-wrap">
+                {{#each wineries as |winery|}}
+                    
+                        {{> winery-info winery }}
+                    
+                {{/each}}
+                
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+            <div class="soc">
+                <a href="#"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=""></script>
