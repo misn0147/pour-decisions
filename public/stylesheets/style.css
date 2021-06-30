@@ -29,6 +29,7 @@
     text-shadow: white 0px 0px 10px !important;
   }
 
+
   .is-4by3 {
     max-width: 300px;
     max-height: 300px;
@@ -187,6 +188,7 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+    text-shadow: white 0px 0px 10px !important;
   }
 
   
