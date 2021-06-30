@@ -9,7 +9,6 @@ const wineryData = [
     facebook: "https://www.facebook.com/abastriswinery/",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/AbAstrisMainImage-1024x768.jpg",
-    facebook: "https://www.facebook.com/abastriswinery/",
     user_id: 1,
   },
   {
@@ -20,7 +19,6 @@ const wineryData = [
     facebook: "https://www.facebook.com/BeckerVineyardsWinery/",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Featured-Image.png",
-    facebook: '',
     user_id: 1,
   },
   {
