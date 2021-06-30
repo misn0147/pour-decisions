@@ -25,7 +25,7 @@ router.get('/:id', (req, res) => {
         include: [
             {
                 model: Winery,
-                attributes: ['id', 'name', 'location', 'website', 'phone', 'image', 'user_id']
+                attributes: ['id', 'name', 'location', 'website', 'phone', 'image', 'facebook', 'user_id']
             },
             {
                 model: Comment,
