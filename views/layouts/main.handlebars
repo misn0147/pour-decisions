@@ -25,8 +25,21 @@
             </a>
           </div>
           {{#if loggedIn}}
-            <a href="/dashboard">My Wineries</a>
-            <button id="logout" class="btn-no-style">Logout</button>
+          <div class="navbar-right">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a href="/dashboard" class="button is danger">My Wineries</a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-right">
+            <div class="navbar-item">
+              <div class="buttons">
+                 <button id="logout" class="navbar-item btn is-danger">Logout</button>
+              </div>
+            </div>
+          </div>
+           
           {{else}}
           <div class="navbar-right">
             <div class="navbar-item">
