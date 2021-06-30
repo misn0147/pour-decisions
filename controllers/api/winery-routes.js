@@ -14,6 +14,7 @@ router.get('/', (req, res) => {
             'website',
             'phone',
             'image',
+            'facebook',
             'user_id'
         ],
         include: [
@@ -50,6 +51,7 @@ router.get('/:id', (req,res) => {
             'website',
             'phone',
             'image',
+            'facebook',
             'user_id'
         ],
         include: [
@@ -88,6 +90,7 @@ router.post('/', (req, res) => {
         website: req.body.website,
         phone: req.body.phone,
         image: req.body.image,
+        facebook: req.body.facebook,
         user_id: req.session.user_id
     })
     .then(dbWineryData => {console.log('====93====='); res.json(dbWineryData)} )
@@ -105,6 +108,7 @@ router.put('/:id', (req,res) => {
         website: req.body.website,
         phone: req.body.phone,
         image: req.body.image,
+        facebook: req.body.facebook
         },
         {
             where: {
