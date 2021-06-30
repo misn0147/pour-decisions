@@ -7,6 +7,7 @@ const name = document.querySelector('input[name="winery-name"]').value;
 const location = document.querySelector('input[name="winery-location"]').value;
 const website = document.querySelector('input[name="winery-website"]').value;
 const phone = document.querySelector('input[name="winery-phone"]').value;
+const facebook = document.querySelector('input[name="winery-facebook"]').value;
 const image = document.querySelector('input[name="winery-image"]').value;
 const user_id = window.location.toString().split('/')[
     window.location.toString().split('/').length - 1
@@ -20,6 +21,7 @@ const user_id = window.location.toString().split('/')[
       website,
       phone,
       image,
+      facebook,
       user_id
     }),
     headers: {
