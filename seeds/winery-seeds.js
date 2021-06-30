@@ -197,7 +197,7 @@ const wineryData = [
     location: "223 E Main St, Fredericksburg, TX 78624, USA",
     website: "https://www.grapecreek.com/taste-on-main-st-fredericksburg",
     phone: "(830) 992-3373",
-    facebook: "https://www.facebook.com/grapecreekvineyards",
+    facebook: "https://www.facebook.com/grapecreekonmain/",
     image:
       "https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/GCV-Main-St-July-2020-2-1024x683.png",
     user_id: 1,
