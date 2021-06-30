@@ -1,6 +1,5 @@
 * {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     box-sizing: border-box;
   }
   .nav {
@@ -24,6 +23,10 @@
 
   .login-form {
     padding-top: 60px !important;
+  }
+
+  .form-title {
+    text-shadow: white 0px 0px 10px !important;
   }
 
   .is-4by3 {

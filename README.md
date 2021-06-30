@@ -60,10 +60,10 @@ THEN they are able to add the winery to the list
 - - -
 
 ## Meet the Team!
-- Melissa Natoli [Github]()
-- Alex Weghorst [Github]()
-- Mark Moore [Github]()
-- Princess Enriquez [Github]()
+- Melissa Natoli [Github](https://github.com/misn0147)
+- Alex Weghorst [Github](https://github.com/aweghorst)
+- Mark Moore [Github](https://github.com/marksmoore)
+- Princess Enriquez [Github](https://github.com/TEnriquez95)
 
 # Deployed Application
 [Pour Decisions]()
