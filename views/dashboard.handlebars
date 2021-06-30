@@ -1,6 +1,13 @@
 <section>
-    <h2>Create New winery</h2>
-
+    
+    <br>
+    <br>
+    <br>
+   
+   <div class=" is-centered">
+    <p class="test">Create New Winery</p>
+    </div>
+    <br>
     <form class="new-winery-form">
         <div>
             <label for="winery-name">Winery Name</label>
@@ -20,10 +27,10 @@
         </div>
         <div>
             <label for="winery-facebook">Winery Facebook</label>
-            <input id="winery-facebook" name="winery-facebook" />
+            <input id="winery-facebook" value="https://www.facebook.com/TexasHillCountryWineries/" name="winery-facebook" />
         </div>
         <div>
-            <label for="winery-image">Winery Image (or use default winery image provided)</label>
+            <label for="winery-image">Winery Image (or use default)</label>
             <input id="winery-image" value="https://his023i1nte1nls6a6qp8amc-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/IMG_8330-1024x683.jpg" name="winery-image" />
         </div>
 
@@ -33,13 +40,16 @@
 
 {{#if wineries.length}}
 <section>
-    <h2>Your Wineries</h2>
+    <div class="winerytitle">
+    Your Wineries
+    </div>
+
+
     <ul>
         {{#each wineries as |winery|}}
-        <li>
+        <li class="is-one-third">
         {{> winery-info winery}}
-        <br>
-        <br>
+        
         <a href="/dashboard/edit/{{winery.id}}" class="edit-link">Edit winery</a>
         </li>
         {{/each}}
