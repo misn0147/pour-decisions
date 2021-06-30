@@ -54,6 +54,9 @@ THEN they are able to add the winery to the list
 
 ### Dev Dependencies
     - Bulma
+ 
+ ### Other Technology
+    - Facebook Developer Plugin 
 - - -
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/79875711/123901989-a9c7ca80-d931-11eb-8dbb-b15b33ec4781.png)
