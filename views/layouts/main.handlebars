@@ -14,36 +14,62 @@
 
   <body>
     <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=221084271285673&autoLogAppEvents=1" nonce="jvDBWC0y"></script>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=221084271285673&autoLogAppEvents=1"
+      nonce="jvDBWC0y"
+    ></script>
     <div class="wrapper">
       <header>
-        
-        <nav class="navbar is-fixed-top is-ghost" role="navigation" aria-label="main navigation">
+
+        <nav
+          class="navbar is-fixed-top is-ghost"
+          role="navigation"
+          aria-label="main navigation"
+        >
           <div class="navbar-brand navbar-start">
             <a class="navbar-item" href="/">
-            <img src="https://i.ibb.co/K5Tvz6f/logo-2.png" alt="Pour Decisions Logo" width="112" height="28">
+              <img
+                src="https://i.ibb.co/K5Tvz6f/logo-2.png"
+                alt="Pour Decisions Logo"
+              />
             </a>
           </div>
           {{#if loggedIn}}
-            <a href="/dashboard">My Wineries</a>
-            <button id="logout" class="btn-no-style">Logout</button>
-          {{else}}
-          <div class="navbar-right">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a href="/login" class="button is-danger">
-                <strong> Log in or Create an Account</strong>
-                </a>
+            <div class="navbar-right">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a href="/dashboard" class="button is danger">My Wineries</a>
+                </div>
               </div>
             </div>
-          </div>
+            <div class="navbar-right">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <button id="logout" class="button is-danger">Logout</button>
+                </div>
+              </div>
+            </div>
+
+          {{else}}
+            <div class="navbar-right">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a href="/login" class="button is-danger">
+                    <strong> Log in or Create an Account</strong>
+                  </a>
+                </div>
+              </div>
+            </div>
           {{/if}}
         </nav>
       </header>
       <main>
         {{{body}}}
       </main>
-      <footer>
+      <footer class="main-footer">
         Just Sip Back and Relax! Let us do the wining.
       </footer>
     </div>
