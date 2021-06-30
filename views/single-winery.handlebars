@@ -7,6 +7,8 @@
 
 {{> winery-info winery }}
 {{> comments winery.comments}}
+
+{{#if loggedIn}}
 <section>
     <form class="comment-form">
         <div class="control">
@@ -16,6 +18,18 @@
         </div>
     </form>
 </section>
+{{else}}
+<div class="navbar-right">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a href="/login" class="button is-danger">
+                    <strong> Log in to leave a review!</strong>
+                  </a>
+                </div>
+              </div>
+            </div>
+{{/if}}
+
 
 
 <script src="/javascript/comment.js"></script>
