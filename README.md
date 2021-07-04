@@ -1,7 +1,9 @@
 # pour-decisions
 In this project, we created a web application utilizing the skill we gathered in this class.
-[Pour Decisions](https://pour-decisions.herokuapp.com/)
 - - -
+
+## Deployed Application
+[Pour Decisions](https://pour-decisions.herokuapp.com/)
 
 ## Objective
 - Use Node.js and Express.js to create a RESTful API.
@@ -73,5 +75,4 @@ THEN they are able to add the winery to the list
 - Mark Moore [Github](https://github.com/marksmoore)
 - Princess Enriquez [Github](https://github.com/TEnriquez95)
 
-# Deployed Application
-[Pour Decisions](https://pour-decisions.herokuapp.com/)
+
